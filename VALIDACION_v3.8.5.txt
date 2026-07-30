@@ -1,0 +1,10 @@
+RALLY CUANTITATIVO v3.8.5
+
+VALIDACIONES APLICADAS
+- Peaje integrado como capa RGBA fija y no como fondo completo.
+- Carretera original conservada.
+- Tráfico y obstáculos siguen actualizándose durante la aproximación.
+- Zona de despeje limitada a los últimos 125-135 m.
+- Ambos sprites de camión habilitados.
+- Recursos de peajes originales y overlays declarados en SCORM.
+- Sintaxis JavaScript revisada con node --check.

@@ -1,0 +1,16 @@
+VALIDACIÓN — Rally Cuantitativo v2.6
+=====================================
+- Preguntas revisadas: 50.
+- Preguntas con gráfica o tabla: 43.
+- Preguntas sin gráfica: 7.
+- Preguntas sin gráfica con panel de información relevante: 7.
+- Incidencias de contexto faltante: 0.
+
+Preguntas que ahora muestran el panel INFORMACIÓN RELEVANTE:
+  - PRO_12: Agua ahorrada en 20 días
+  - PRO_13: Petróleo ahorrado por la ciudad
+  - PRO_24: Conversión del diámetro de la Vía Láctea
+  - TYT_06: Promedio de eficiencias
+  - TYT_07: Información que no puede determinarse
+  - TYT_17: Comparación de 2904 con 1234
+  - TYT_18: Verificación con el secreto 4925

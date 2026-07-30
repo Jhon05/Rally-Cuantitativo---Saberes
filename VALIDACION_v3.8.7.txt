@@ -1,0 +1,9 @@
+RALLY CUANTITATIVO v3.8.7
+
+- Peajes realistas fijos en el horizonte, sin desplazamiento vertical.
+- Escala reducida y fusión transparente inferior/lateral.
+- Sin indicadores flotantes duplicados.
+- Carretera, jugador y tráfico permanecen visibles.
+- Zona de cabinas despejada solo durante la aproximación final.
+- Carril verde fijo por etapa: 1, 2, 3 y 4.
+- Rutas internas cortas para Windows y SCORM.

@@ -1,0 +1,16 @@
+VALIDACIÓN — Rally Cuantitativo v2.7
+=================================================
+Preguntas revisadas: 50
+Preguntas con instrucción/enunciado superior: 50
+Preguntas con tabla HTML + MathJax: 22
+Preguntas con cuatro opciones válidas: 50
+Capturas de tablas detectadas en preguntas con tabla HTML: 0
+Preguntas aprobadas: 50/50
+
+Correcciones verificadas:
+- El enunciado completo aparece arriba del cuerpo de la pregunta.
+- La información, tabla o gráfica queda debajo del enunciado.
+- Las tablas se renderizan desde HTML y TeX con MathJax.
+- La imagen de la tabla original permanece oculta.
+- Los recursos gráficos adicionales, como opciones gráficas, sí pueden mostrarse.
+- Las opciones y la retroalimentación conservan desplazamiento y diseño adaptativo.

@@ -1,0 +1,134 @@
+{
+  "version": "3.9.9",
+  "source": "Preguntas.docx",
+  "total_questions": 63,
+  "selection_rule": "Tres preguntas por partida: una de cada nivel, todas de la carrera elegida y de familias diferentes cuando sea posible.",
+  "races": {
+    "Interpretación": {
+      "label": "Carrera de Interpretación",
+      "description": "Lectura, comparación y transformación de información presentada en figuras, datos y representaciones.",
+      "count": 21,
+      "by_level": {
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "families": [
+        "Cámara",
+        "Dardos",
+        "Descuentos",
+        "Habitaciones",
+        "Palillos",
+        "Ángulos",
+        "Área sombreada"
+      ],
+      "question_ids": [
+        "PAR_01_01",
+        "PAR_02_01",
+        "PAR_03_01",
+        "PAR_04_01",
+        "PAR_05_01",
+        "PAR_06_01",
+        "PAR_07_01",
+        "PAR_01_02",
+        "PAR_02_02",
+        "PAR_03_02",
+        "PAR_04_02",
+        "PAR_05_02",
+        "PAR_06_02",
+        "PAR_07_02",
+        "PAR_01_03",
+        "PAR_02_03",
+        "PAR_03_03",
+        "PAR_04_03",
+        "PAR_05_03",
+        "PAR_06_03",
+        "PAR_07_03"
+      ]
+    },
+    "Argumentación": {
+      "label": "Carrera de Argumentación",
+      "description": "Análisis de relaciones, validación de procedimientos y sustentación de decisiones cuantitativas.",
+      "count": 21,
+      "by_level": {
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "families": [
+        "Cámara",
+        "Dardos",
+        "Descuentos",
+        "Habitaciones",
+        "Palillos",
+        "Ángulos",
+        "Área sombreada"
+      ],
+      "question_ids": [
+        "PAR_01_04",
+        "PAR_02_04",
+        "PAR_03_04",
+        "PAR_04_04",
+        "PAR_05_04",
+        "PAR_06_04",
+        "PAR_07_04",
+        "PAR_01_05",
+        "PAR_02_05",
+        "PAR_03_05",
+        "PAR_04_05",
+        "PAR_05_05",
+        "PAR_06_05",
+        "PAR_07_05",
+        "PAR_01_06",
+        "PAR_02_06",
+        "PAR_03_06",
+        "PAR_04_06",
+        "PAR_05_06",
+        "PAR_06_06",
+        "PAR_07_06"
+      ]
+    },
+    "Formulación y ejecución": {
+      "label": "Carrera de Formulación y ejecución",
+      "description": "Planteamiento de modelos, ejecución de cálculos y resolución de situaciones cuantitativas.",
+      "count": 21,
+      "by_level": {
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "families": [
+        "Cámara",
+        "Dardos",
+        "Descuentos",
+        "Habitaciones",
+        "Palillos",
+        "Ángulos",
+        "Área sombreada"
+      ],
+      "question_ids": [
+        "PAR_01_07",
+        "PAR_02_07",
+        "PAR_03_07",
+        "PAR_04_07",
+        "PAR_05_07",
+        "PAR_06_07",
+        "PAR_07_07",
+        "PAR_01_08",
+        "PAR_02_08",
+        "PAR_03_08",
+        "PAR_04_08",
+        "PAR_05_08",
+        "PAR_06_08",
+        "PAR_07_08",
+        "PAR_01_09",
+        "PAR_02_09",
+        "PAR_03_09",
+        "PAR_04_09",
+        "PAR_05_09",
+        "PAR_06_09",
+        "PAR_07_09"
+      ]
+    }
+  }
+}

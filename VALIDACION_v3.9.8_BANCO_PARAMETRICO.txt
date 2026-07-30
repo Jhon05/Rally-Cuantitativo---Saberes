@@ -1,0 +1,12 @@
+Rally Cuantitativo v3.9.8
+
+- Banco reemplazado por 63 variantes paramétricas construidas a partir de 7 familias del documento Preguntas.docx.
+- Tres etapas por partida: una pregunta de nivel 1, una de nivel 2 y una de nivel 3.
+- Selección aleatoria por competencia, dificultad y semilla.
+- Opciones de respuesta aleatorizadas.
+- Figuras recreadas con HTML/SVG, sin capturas rasterizadas.
+- Fórmulas renderizadas con MathJax 3 local en salida SVG.
+- Banco independiente incluido como Banco_Parametrizado_Rally_MathJax.html.
+- Compatible con SCORM 1.2, GitHub Pages y ejecución local.
+- Estilos SVG integrados en styles.css para que las figuras sean visibles dentro de las preguntas del juego.
+- Organización: cada página del banco muestra una familia diferente para una misma competencia y nivel, evitando bloques repetitivos.

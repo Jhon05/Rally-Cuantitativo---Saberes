@@ -1,0 +1,21 @@
+VALIDACIÓN TÉCNICA — Rally Cuantitativo v3.7
+================================================
+Base funcional: v3.6.
+
+Mejoras visuales implementadas en esta versión:
+1. Laterales de autopista más realistas:
+   - hombros de vía más estrechos y con textura,
+   - guardarraíles visibles,
+   - detalles de borde y suelo lateral menos planos.
+2. Edificios con mayor sensación de profundidad:
+   - skyline en varias capas,
+   - desplazamiento diferencial (parallax),
+   - construcciones cercanas en los costados urbanos.
+3. Sombras de contacto y proyectadas:
+   - vehículos del jugador y del tráfico con sombras más creíbles,
+   - obstáculos con sombra de apoyo,
+   - iluminación dependiente del entorno.
+
+Comprobaciones:
+- game.js validado con node --check.
+- questions.js validado con node --check.

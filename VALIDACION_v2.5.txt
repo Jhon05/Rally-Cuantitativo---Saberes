@@ -1,0 +1,51 @@
+VALIDACIÓN — Rally Cuantitativo v2.5
+================================================
+Objetivo: verificar que ninguna pregunta, opción, pista o retroalimentación quede cortada en el panel del juego.
+
+[OK] Banco contiene 50 preguntas — 50
+[OK] Todas tienen 4 opciones
+[OK] Todos los enunciados TeX presentes
+[OK] Todas las opciones TeX presentes
+[OK] Todas las pistas presentes
+[OK] Todas las retroalimentaciones presentes
+[OK] Sin instrucciones grupales prohibidas
+[OK] Todos los recursos visuales existen
+[OK] Referencias DOM resueltas
+[OK] imsmanifest.xml válido
+[OK] Recursos SCORM declarados existen
+[OK] Casos visuales adaptativos aprobados — 200/200
+
+REVISIÓN VISUAL AUTOMATIZADA DE LAS 50 PREGUNTAS
+----------------------------------------------------
+Casos evaluados: 200 (50 preguntas × 4 tamaños de pantalla).
+Casos aprobados: 200
+Casos fallidos: 0
+- desktop_1366x768: 50/50 aprobados
+- short_landscape_1280x600: 50/50 aprobados
+- phone_landscape_844x390: 50/50 aprobados
+- phone_portrait_390x844: 50/50 aprobados
+
+En cada caso se comprobó:
+- El panel completo permanece dentro del área visible.
+- El cuerpo de la pregunta conserva un área útil suficiente.
+- El enunciado es accesible desde el inicio del desplazamiento.
+- Aparecen exactamente cuatro opciones.
+- Ninguna opción se sale horizontalmente de su contenedor.
+- La última opción puede alcanzarse mediante desplazamiento.
+- La página no genera desbordamiento horizontal global.
+- La retroalimentación completa puede desplazarse.
+- El botón Continuar permanece dentro del panel y accesible.
+
+Preguntas de mayor densidad de contenido revisadas explícitamente:
+- PRO_02: Predicción exacta para 2011 — densidad 890, enunciado 254, opción máxima 188 caracteres.
+- PRO_06: Comparación de dos repartos — densidad 852, enunciado 257, opción máxima 173 caracteres.
+- PRO_25: Suficiencia de las mediciones — densidad 820, enunciado 221, opción máxima 173 caracteres.
+- PRO_15: Verificación de una razón constante — densidad 760, enunciado 180, opción máxima 175 caracteres.
+- PRO_13: Petróleo ahorrado por la ciudad — densidad 758, enunciado 261, opción máxima 145 caracteres.
+- PRO_24: Conversión del diámetro de la Vía Láctea — densidad 753, enunciado 287, opción máxima 133 caracteres.
+- TYT_23: El microondas como 25\% de la nevera — densidad 727, enunciado 172, opción máxima 144 caracteres.
+- TYT_20: Significado del procedimiento de tres pasos — densidad 719, enunciado 339, opción máxima 105 caracteres.
+- PRO_11: Conversión de euros a pesos — densidad 669, enunciado 447, opción máxima 59 caracteres.
+- PRO_08: Menor costo por sesión — densidad 631, enunciado 174, opción máxima 124 caracteres.
+
+Resultado final: APROBADO. Las 50 preguntas pasaron la revisión en escritorio, pantalla corta, celular horizontal y celular vertical, tanto antes como después de mostrar la retroalimentación.

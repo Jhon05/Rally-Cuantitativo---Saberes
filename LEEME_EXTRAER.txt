@@ -1,0 +1,11 @@
+RALLY CUANTITATIVO v3.8.6 — PAQUETE DE RUTAS CORTAS
+
+Este ZIP fue preparado sin una carpeta raíz larga y con nombres cortos para los peajes.
+
+Para abrirlo en Windows:
+1. Crea una carpeta corta, por ejemplo C:\RC386
+2. Copia este ZIP allí.
+3. Haz clic derecho > Extraer todo.
+4. Abre index.html para probarlo localmente.
+
+Para Brightspace/SCORM, sube el ZIP directamente sin extraerlo. El archivo imsmanifest.xml está en la raíz del paquete.

@@ -1,0 +1,23 @@
+VALIDACIÓN — Rally Cuantitativo v3.2
+=====================================
+- question_count: 50
+- sprite_count: 21
+- index_missing_refs: []
+- duplicate_ids: []
+- missing_sprite_files: []
+- all_sprites_transparent: True
+- sprite_loader_integrated: True
+- player_sprite_mapping: True
+- traffic_sprite_mapping: True
+- obstacle_sprite_mapping: True
+- sprite_draw_function: True
+- vehicle_saved_scorm: True
+- vehicle_in_report: True
+- catalog_present: True
+- preview_present: True
+- Jugador: Vector GT, Pulse RS y Titan X con perfiles diferenciados.
+- Tráfico: sedanes, coupé, hatchback, taxi/interceptor, motos, van y camiones.
+- Obstáculos: cono, barreras, llantas, aceite, bache, caja y señal de obra.
+- Física por código: masa, aceleración, frenado, dirección, rebote, cambios de carril, suspensión visual, luces y turbo.
+- Respaldo: si un sprite no carga, permanece el dibujo vectorial anterior.
+- Banco académico, peajes, temporizador, correo, informe y SCORM conservados.

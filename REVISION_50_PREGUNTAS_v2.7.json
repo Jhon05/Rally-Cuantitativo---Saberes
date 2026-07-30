@@ -1,0 +1,607 @@
+{
+  "version": "2.7",
+  "question_count": 50,
+  "html_table_count": 22,
+  "questions_with_top_instruction": 50,
+  "approved": 50,
+  "issues": [],
+  "questions": [
+    {
+      "id": "PRO_01",
+      "title": "Relación entre magnitud y frecuencia",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_02",
+      "title": "Predicción exacta para 2011",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_03",
+      "title": "Estimación mensual",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_04",
+      "title": "Año más cercano y más lejano al promedio",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_05",
+      "title": "Proporción de sismos entre 8,0 y 8,9",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_06",
+      "title": "Comparación de dos repartos",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/pro_herencia_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_07",
+      "title": "Parte correspondiente a Juan",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/pro_herencia_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_08",
+      "title": "Menor costo por sesión",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_09",
+      "title": "Afirmación incorrecta sobre el horario",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_10",
+      "title": "Años de mayor inversión",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/pro_inversion_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_11",
+      "title": "Conversión de euros a pesos",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/pro_inversion_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_12",
+      "title": "Agua ahorrada en 20 días",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_13",
+      "title": "Petróleo ahorrado por la ciudad",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_14",
+      "title": "Diferencia entre alimentación y desplazamiento",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_15",
+      "title": "Verificación de una razón constante",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_16",
+      "title": "Dos condiciones simultáneas",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_17",
+      "title": "Número en el extremo opuesto",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/pro_pistas_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_18",
+      "title": "Giro de 30 grados",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/pro_pistas_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_19",
+      "title": "Dirección física del extremo 32",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/pro_pistas_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_20",
+      "title": "Capacidad total del tanque",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_21",
+      "title": "Precio proporcional para 1.800 mL",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_22",
+      "title": "Número de etiquetas",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_23",
+      "title": "Vendedores que superan \\$500.000",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_24",
+      "title": "Conversión del diámetro de la Vía Láctea",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "PRO_25",
+      "title": "Suficiencia de las mediciones",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/pro_fuente_figura.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_01",
+      "title": "Cómo duplicar el ingreso total",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_red_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_02",
+      "title": "Comisión de Pedro",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_red_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_03",
+      "title": "Día más favorable para quien entrega dólares",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_divisas_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_04",
+      "title": "Transacción con mayor ganancia",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_divisas_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_05",
+      "title": "Conversión del precio del café",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_divisas_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_06",
+      "title": "Promedio de eficiencias",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_07",
+      "title": "Información que no puede determinarse",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_08",
+      "title": "Interpretación de \\(500\\ \\mathrm{kg/m^3}\\)",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_residuos.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_09",
+      "title": "Intervalo de basura orgánica",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_residuos.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_10",
+      "title": "Número de paradas para 60 minutos",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_11",
+      "title": "Retraso antes de la primera parada",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_12",
+      "title": "Primera parada para 80 minutos",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_13",
+      "title": "Gráfica profundidad-tiempo",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_13_opciones_graficas.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_14",
+      "title": "Verificación de tres afirmaciones",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_15",
+      "title": "Comparar promedios mediante sumas",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_16",
+      "title": "Índice promedio por hora del canal Ocho",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_17",
+      "title": "Comparación de 2904 con 1234",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_18",
+      "title": "Verificación con el secreto 4925",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_19",
+      "title": "Monto correspondiente al 70\\%",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_salud_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_20",
+      "title": "Significado del procedimiento de tres pasos",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_salud_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_21",
+      "title": "Información adicional para completar la proyección",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_salud_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_22",
+      "title": "Gráfica del promedio 2002--2012",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_salud_limpia.png",
+        "assets/visuals/tyt_22_opciones_graficas.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_23",
+      "title": "El microondas como 25\\% de la nevera",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_electrodomesticos_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_24",
+      "title": "Rango de las áreas",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": false,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_parques_limpia.png"
+      ],
+      "status": "OK"
+    },
+    {
+      "id": "TYT_25",
+      "title": "Profesores necesarios según inscritos",
+      "instruction_at_top": true,
+      "four_options": true,
+      "has_html_table": true,
+      "html_table_valid": true,
+      "document_table_image_suppressed": true,
+      "additional_visuals": [
+        "assets/visuals/tyt_25_opciones_graficas.png"
+      ],
+      "status": "OK"
+    }
+  ]
+}

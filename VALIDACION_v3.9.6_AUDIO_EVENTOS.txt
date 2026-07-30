@@ -1,0 +1,12 @@
+Rally Cuantitativo v3.9.6 — integración sonora por eventos
+
+- Ambientes conectados a menú, etapas 1–4, preguntas, peaje y meta.
+- Ambiente de meta activado durante el sprint final y la finalización.
+- Motor reactivo a velocidad y turbo.
+- Alerta continua de proximidad al peaje entre 650 m y 0 m.
+- Pulsos de alerta a 820 m, 480 m y 180 m con intensidad progresiva.
+- Choques ligeros y fuertes conectados a la física con control anti-saturación.
+- Derrape, aceite, conos, baches y obstáculos conectados a efectos específicos.
+- Música, ambiente, motor y efectos controlados por el botón SONIDO.
+- Pausa, cambio de visibilidad y reanudación conservan la escena sonora.
+- SCORM 1.2 y ejecución local/GitHub conservados.

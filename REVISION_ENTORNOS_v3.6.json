@@ -1,0 +1,18 @@
+{
+  "version": "3.6",
+  "main_fixes": [
+    "Horizonte visible: la carretera inicia más abajo.",
+    "Skyline y cielo visibles en todas las etapas.",
+    "Hombros de vía más estrechos en lugar de bloques laterales opacos.",
+    "Mejor profundidad de carretera y textura por clima.",
+    "Laterales con vegetación, guardarraíles, luces y detalles contextuales."
+  ],
+  "themes": [
+    "AMANECER URBANO",
+    "LLUVIA URBANA",
+    "ATARDECER INDUSTRIAL",
+    "NOCHE EXTREMA",
+    "SPRINT FINAL · TORMENTA"
+  ],
+  "status": "ok"
+}

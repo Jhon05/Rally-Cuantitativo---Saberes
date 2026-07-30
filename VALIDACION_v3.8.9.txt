@@ -1,0 +1,8 @@
+RALLY CUANTITATIVO v3.8.9
+
+- Cuatro imágenes nuevas de peajes integradas.
+- Correspondencia fija etapa/carril verde: 1→1, 2→2, 3→3, 4→4.
+- Señal verde visible tanto en el letrero como en el piso de la imagen.
+- Bordes inferiores y laterales suavizados para mezclar la imagen con la carretera animada.
+- Jugador, tráfico, obstáculos y controles continúan dibujándose sobre el peaje.
+- SCORM 1.2 y estructura GitHub conservados.

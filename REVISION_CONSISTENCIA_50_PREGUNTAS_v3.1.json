@@ -1,0 +1,14 @@
+{
+  "version": "3.1",
+  "question_count": 50,
+  "visual_policy": "Todas las ayudas se presentan en HTML/CSS/SVG/MathJax; no se usan imágenes con texto.",
+  "questions_with_reconstructed_visual_aids": [
+    "TYT_08",
+    "TYT_09"
+  ],
+  "notes": [
+    "Se revisó que el espacio entre tarea, datos y opciones no repita el enunciado.",
+    "Las preguntas con tablas conservan tablas HTML.",
+    "Las preguntas con gráficos e infografías usan SVG o bloques HTML."
+  ]
+}

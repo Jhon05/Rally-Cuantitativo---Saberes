@@ -1,0 +1,14 @@
+VALIDACIÓN TÉCNICA — Rally Cuantitativo v3.6
+================================================
+Base funcional: v3.5 entornos realistas dinámicos.
+
+Correcciones implementadas:
+- El horizonte de la carretera se desplazó hacia abajo para que el cielo y la ciudad sean visibles.
+- Los polígonos laterales sólidos se reemplazaron por paneles más ligeros y hombros de vía más estrechos.
+- Los entornos por etapa ahora muestran mejor el skyline, montañas, iluminación, distrito industrial y clima.
+- La carretera mantiene cambios visuales por etapa, con mejor lectura de amanecer, lluvia, atardecer, noche y sprint final.
+- Se conservaron preguntas, SCORM, peajes, menú simplificado y sprites de vehículos.
+
+Comprobaciones:
+- game.js validado sintácticamente con node --check.
+- questions.js validado sintácticamente con node --check.

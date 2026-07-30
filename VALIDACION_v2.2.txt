@@ -1,0 +1,8 @@
+VALIDACIÓN — Rally Cuantitativo v2.2
+=====================================
+- Integrado el banco `banco_rally_latex_mathjax_tablas_html.json`.
+- Regenerado `questions.js` para el juego con 50 preguntas y 3 competencias.
+- Enunciados y opciones renderizados desde `stem_tex_html` y `tex_html`.
+- Tablas y visuales HTML del banco mostrados dentro del overlay de preguntas.
+- Copiados recursos de `assets/visuals/` al proyecto del juego.
+- Conservadas las reglas de peajes de 60 s y temporizador de 90 s por pregunta.

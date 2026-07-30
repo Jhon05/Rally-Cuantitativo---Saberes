@@ -1,0 +1,8 @@
+Rally Cuantitativo v3.9.5
+
+- Ambiente propio para menú, cuatro etapas, preguntas, peaje y meta.
+- Ambiente de lluvia, maquinaria industrial, ciudad neón y amanecer urbano.
+- Alerta de proximidad al peaje con volumen y frecuencia crecientes según la distancia.
+- Efectos diferenciados para roce, impacto fuerte, baches, conos y pérdida de adherencia.
+- Mezcla independiente de música, ambiente, motor y efectos.
+- Compatibilidad local, GitHub Pages y SCORM 1.2.

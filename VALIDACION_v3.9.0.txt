@@ -1,0 +1,10 @@
+RALLY CUANTITATIVO v3.9.0
+
+VALIDACIONES:
+- 4 imágenes de peaje vinculadas a las etapas 1-4.
+- Carril verde fijo 1, 2, 3 y 4 según la etapa.
+- Tráfico normal antes de 520 m.
+- Zona fotográfica final sin tráfico ni obstáculos superpuestos.
+- Solo el automóvil del estudiante se dibuja sobre la carretera del peaje.
+- Sin guía verde duplicada.
+- SCORM 1.2 y rutas cortas preservadas.

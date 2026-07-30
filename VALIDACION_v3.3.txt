@@ -1,0 +1,10 @@
+VALIDACIÓN — Rally Cuantitativo v3.3
+=====================================
+- Se generaron 3 bases neutras de vehículo y 3 máscaras de pintura.
+- Se verificaron 15 combinaciones: 3 vehículos × 5 colores.
+- El selector actualiza las miniaturas, la vista previa y el vehículo dentro del Canvas.
+- La coloración se limita a la carrocería; ventanas, ruedas, faros, defensas y accesorios conservan su apariencia.
+- La luz inferior y la estela mantienen el mismo color seleccionado.
+- El informe registra modelo y nombre del color.
+- Cobertura aproximada de máscaras: Vector GT 57.3%; Pulse RS 34.9%; Titan X 19.0%.
+- Sintaxis JavaScript y estructura SCORM revisadas.

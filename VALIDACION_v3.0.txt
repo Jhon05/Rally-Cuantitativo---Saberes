@@ -1,0 +1,20 @@
+VALIDACIÓN — Rally Cuantitativo v3.0
+=====================================
+Preguntas revisadas: 50
+Preguntas con notación MathJax en datos/instrucciones: 50
+Preguntas con tablas HTML: 27
+Preguntas con gráficas SVG propias: 9
+
+Corrección principal
+--------------------
+La regla general `.data-visual svg` ampliaba también los SVG generados internamente por MathJax.
+Se sustituyó por selectores exclusivos para las gráficas propias (`.chart-frame > svg`) y se añadieron
+reglas defensivas que conservan el ancho y alto natural de cada expresión MathJax.
+
+Controles aplicados
+-------------------
+- Números de tablas y listas exactas con escala entre 12 y 15 px según pantalla.
+- SVG de MathJax con `width:auto` y `height:auto`; nunca se estiran al ancho del panel.
+- Gráficas SVG del banco continúan siendo responsivas.
+- Tablas HTML conservan desplazamiento horizontal cuando es necesario.
+- Revisión estructural de las 50 preguntas completada.

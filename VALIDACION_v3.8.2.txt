@@ -1,0 +1,13 @@
+Rally Cuantitativo v3.8.2 — Camiones de referencia integrados
+
+Cambios realizados:
+- Se reemplazaron los sprites de camión por las dos referencias aprobadas por el usuario.
+- Ambos camiones están en vista cenital/dirección de circulación del juego.
+- Se eliminaron las luces frontales incoherentes; se conservó la parte trasera correcta.
+- Se mantuvieron los nombres internos traffic_truck_orange y traffic_truck_blue para compatibilidad.
+- Se actualizaron las dimensiones naturales en el manifest y el tamaño de dibujo a 68x114.
+
+Archivos modificados:
+- assets/sprites/traffic_truck_orange.png
+- assets/sprites/traffic_truck_blue.png
+- assets/sprites/manifest.json

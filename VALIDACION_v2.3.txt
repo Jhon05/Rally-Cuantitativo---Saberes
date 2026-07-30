@@ -1,0 +1,7 @@
+VALIDACIÓN — Rally Cuantitativo v2.3
+=====================================
+- Campo obligatorio `studentEmail` agregado al menú inicial.
+- Validación nativa de correo mediante `type=email` y `checkValidity()`.
+- Nombre y correo almacenados en el estado del juego y en `suspend_data` SCORM.
+- Correo agregado al encabezado del informe HTML junto al nombre.
+- Sintaxis JavaScript, referencias DOM, manifiesto SCORM y estructura del ZIP verificados.

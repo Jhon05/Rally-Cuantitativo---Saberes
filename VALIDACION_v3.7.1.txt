@@ -1,0 +1,25 @@
+VALIDACIÓN — Rally Cuantitativo v3.7.1
+=======================================
+
+Causa del fallo mostrado en pantalla
+------------------------------------
+La versión v3.7 llamaba a tres funciones de dibujo que no habían quedado incluidas en game.js:
+- drawCloseCitySides()
+- stageLightConfig()
+- drawEntityShadow()
+
+El navegador alcanzaba a dibujar el cielo y el skyline, pero detenía el fotograma al encontrar la función ausente. Por eso desaparecían la carretera, el vehículo, el tráfico y los obstáculos.
+
+Correcciones aplicadas
+----------------------
+- Se añadieron las tres funciones faltantes.
+- Se restauró el dibujo completo de la carretera y los vehículos.
+- Se conservaron los laterales realistas, edificios con parallax y sombras proyectadas.
+- Se actualizaron los identificadores de versión a v3.7.1.
+
+Comprobaciones realizadas
+-------------------------
+- game.js: node --check aprobado.
+- questions.js: node --check aprobado.
+- Validación estructural: cada función faltante existe exactamente una vez y sus llamadas quedan resueltas.
+- La prueba interactiva automatizada en Chromium no pudo completarse porque el entorno bloqueó la navegación local con ERR_BLOCKED_BY_ADMINISTRATOR. No se afirma una prueba visual automatizada que no haya podido ejecutarse.

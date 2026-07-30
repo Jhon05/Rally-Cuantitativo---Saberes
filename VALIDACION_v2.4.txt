@@ -1,0 +1,9 @@
+VALIDACIÓN — Rally Cuantitativo v2.4
+=====================================
+- La cabina incorrecta ya no reinicia ni repite la etapa.
+- La pregunta se habilita después de cualquier cruce del peaje.
+- La cabina incorrecta mantiene la penalización de 250 puntos de piloto.
+- La pista se bloquea exclusivamente para la pregunta asociada a ese peaje.
+- La cabina verde conserva el acceso normal a la pista.
+- El informe registra disponibilidad o bloqueo de la pista por pregunta.
+- Se mantiene el temporizador de 90 segundos, el banco MathJax, SCORM y el correo del estudiante.

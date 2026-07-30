@@ -1,0 +1,15 @@
+VALIDACIÓN — Rally Cuantitativo v3.4
+=====================================
+- Se eliminó la colorización por píxeles durante la ejecución, que podía bloquear el hilo principal.
+- Se generaron 15 sprites estáticos: 3 automóviles × 5 colores.
+- El juego usa archivos PNG precalculados y no procesa máscaras al iniciar.
+- Menú inicial reducido a nombre, correo y cinco selecciones resumidas.
+- Cada selección abre una ventana, guarda la opción elegida y actualiza el resumen.
+- El botón de inicio tiene protección contra dobles clics y manejo visible de errores.
+- La carrera continúa aunque el navegador rechace una segunda solicitud de pantalla completa.
+- Se cancela cualquier ciclo RAF previo antes de iniciar uno nuevo.
+- Archivos JavaScript comprobados con `node --check`.
+- Flujo del menú probado mediante navegador automatizado con contenido inyectado.
+
+- Prueba funcional automatizada: ventana abierta, selección guardada, juego visible después de iniciar y 0 errores de consola.
+- Verificación de sprites: 15 variantes PNG con sumas RGB distintas por color.

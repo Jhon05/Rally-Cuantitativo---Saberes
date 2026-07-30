@@ -1,0 +1,6 @@
+v3.10.0
+- Se muestra el contexto real de cada pregunta en lugar del bloque técnico de parámetros.
+- Se conserva un panel colapsable con datos de la variante para revisión.
+- Opciones, preguntas, pistas y retroalimentación priorizan contenido TeX/MathJax cuando está disponible.
+- Se incrementó la escala y legibilidad de MathJax SVG en la interfaz del juego.
+- Se mantuvieron las figuras HTML/SVG y la clasificación por carrera.

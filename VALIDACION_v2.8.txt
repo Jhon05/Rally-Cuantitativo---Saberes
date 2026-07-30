@@ -1,0 +1,16 @@
+VALIDACIÓN — Rally Cuantitativo v2.8
+=====================================
+Preguntas revisadas: 50
+Preguntas aprobadas estructuralmente: 50/50
+Tablas construidas en HTML + MathJax: 27
+Preguntas con opciones gráficas vectoriales HTML/SVG: 3
+Referencias a imágenes rasterizadas del banco: 0
+Etiquetas <img> dentro del banco: 0
+
+Correcciones:
+- Un solo panel uniforme de información y datos.
+- Contexto, enunciado y opciones en HTML legible con TeX visible mediante MathJax.
+- Todas las tablas están en HTML; no se muestran capturas del documento.
+- Gráficas y diagramas se reconstruyeron como HTML/CSS/SVG vectorial.
+- Las opciones gráficas de TYT 13, TYT 22 y TYT 25 se reconstruyeron sin imágenes.
+- Se eliminó la duplicación del contexto y los paneles con texto rasterizado.

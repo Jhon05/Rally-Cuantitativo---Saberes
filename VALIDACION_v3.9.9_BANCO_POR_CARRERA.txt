@@ -1,0 +1,22 @@
+Rally Cuantitativo v3.9.9
+
+BANCO ACTIVO
+- questions.js: 63 preguntas paramétricas provenientes de 7 familias.
+- Banco anterior eliminado del paquete para evitar carga ambigua.
+
+CLASIFICACIÓN
+- Carrera de Interpretación: 21 preguntas; 7 por nivel.
+- Carrera de Argumentación: 21 preguntas; 7 por nivel.
+- Carrera de Formulación y ejecución: 21 preguntas; 7 por nivel.
+
+SELECCIÓN EN CADA PARTIDA
+- Una pregunta de nivel 1, una de nivel 2 y una de nivel 3.
+- Todas pertenecen al tipo de carrera elegido.
+- Se evita repetir familia.
+- Se alterna la fuente Saber Pro/TyT cuando es posible.
+- Las opciones se aleatorizan nuevamente al iniciar la partida.
+
+PRESENTACIÓN
+- Figuras HTML/SVG.
+- MathJax local con salida SVG.
+- Contexto, información, pregunta, opciones, pista y retroalimentación.

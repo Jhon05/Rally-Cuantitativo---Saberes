@@ -1,0 +1,274 @@
+{
+  "version": "3.2",
+  "checks": {
+    "question_count": 50,
+    "sprite_count": 21,
+    "index_missing_refs": [],
+    "duplicate_ids": [],
+    "missing_sprite_files": [],
+    "all_sprites_transparent": true,
+    "sprite_loader_integrated": true,
+    "player_sprite_mapping": true,
+    "traffic_sprite_mapping": true,
+    "obstacle_sprite_mapping": true,
+    "sprite_draw_function": true,
+    "vehicle_saved_scorm": true,
+    "vehicle_in_report": true,
+    "catalog_present": true,
+    "preview_present": true
+  },
+  "sprite_alpha": {
+    "player_vector": true,
+    "player_pulse": true,
+    "player_titan": true,
+    "traffic_sedan_silver": true,
+    "traffic_sedan_green": true,
+    "traffic_taxi_yellow": true,
+    "traffic_coupe_gray": true,
+    "traffic_hatch_white": true,
+    "traffic_moto_black": true,
+    "traffic_moto_red": true,
+    "traffic_van_white": true,
+    "traffic_truck_orange": true,
+    "traffic_truck_blue": true,
+    "obstacle_cone": true,
+    "obstacle_barrier_lights": true,
+    "obstacle_tires": true,
+    "obstacle_oil": true,
+    "obstacle_pothole": true,
+    "obstacle_barrier": true,
+    "obstacle_crate": true,
+    "obstacle_roadwork": true
+  },
+  "manifest": {
+    "version": "3.2",
+    "sprites": {
+      "player_vector": {
+        "src": "assets/sprites/player_vector.png",
+        "naturalWidth": 314,
+        "naturalHeight": 473,
+        "group": "players",
+        "drawW": 64,
+        "drawH": 116,
+        "hitbox": [
+          10,
+          8,
+          44,
+          96
+        ],
+        "mass": 1.08,
+        "maxSpeed": 158,
+        "steering": 1.15,
+        "accel": 24
+      },
+      "player_pulse": {
+        "src": "assets/sprites/player_pulse.png",
+        "naturalWidth": 337,
+        "naturalHeight": 474,
+        "group": "players",
+        "drawW": 66,
+        "drawH": 118,
+        "hitbox": [
+          10,
+          8,
+          46,
+          98
+        ],
+        "mass": 0.96,
+        "maxSpeed": 151,
+        "steering": 1.32,
+        "accel": 27
+      },
+      "player_titan": {
+        "src": "assets/sprites/player_titan.png",
+        "naturalWidth": 324,
+        "naturalHeight": 485,
+        "group": "players",
+        "drawW": 72,
+        "drawH": 124,
+        "hitbox": [
+          11,
+          9,
+          50,
+          102
+        ],
+        "mass": 1.55,
+        "maxSpeed": 141,
+        "steering": 1.02,
+        "accel": 19
+      },
+      "traffic_sedan_silver": {
+        "src": "assets/sprites/traffic_sedan_silver.png",
+        "naturalWidth": 308,
+        "naturalHeight": 452,
+        "group": "traffic",
+        "drawW": 51,
+        "drawH": 91,
+        "kind": "sedan",
+        "mass": 1.08
+      },
+      "traffic_sedan_green": {
+        "src": "assets/sprites/traffic_sedan_green.png",
+        "naturalWidth": 305,
+        "naturalHeight": 459,
+        "group": "traffic",
+        "drawW": 50,
+        "drawH": 91,
+        "kind": "sedan",
+        "mass": 1.06
+      },
+      "traffic_taxi_yellow": {
+        "src": "assets/sprites/traffic_taxi_yellow.png",
+        "naturalWidth": 300,
+        "naturalHeight": 456,
+        "group": "traffic",
+        "drawW": 51,
+        "drawH": 91,
+        "kind": "police",
+        "mass": 1.12
+      },
+      "traffic_coupe_gray": {
+        "src": "assets/sprites/traffic_coupe_gray.png",
+        "naturalWidth": 304,
+        "naturalHeight": 331,
+        "group": "traffic",
+        "drawW": 49,
+        "drawH": 85,
+        "kind": "coupe",
+        "mass": 0.92
+      },
+      "traffic_hatch_white": {
+        "src": "assets/sprites/traffic_hatch_white.png",
+        "naturalWidth": 301,
+        "naturalHeight": 328,
+        "group": "traffic",
+        "drawW": 49,
+        "drawH": 86,
+        "kind": "sedan",
+        "mass": 1.02
+      },
+      "traffic_moto_black": {
+        "src": "assets/sprites/traffic_moto_black.png",
+        "naturalWidth": 164,
+        "naturalHeight": 320,
+        "group": "heavy",
+        "drawW": 27,
+        "drawH": 69,
+        "kind": "motorcycle",
+        "mass": 0.44
+      },
+      "traffic_moto_red": {
+        "src": "assets/sprites/traffic_moto_red.png",
+        "naturalWidth": 190,
+        "naturalHeight": 325,
+        "group": "heavy",
+        "drawW": 27,
+        "drawH": 69,
+        "kind": "motorcycle",
+        "mass": 0.44
+      },
+      "traffic_van_white": {
+        "src": "assets/sprites/traffic_van_white.png",
+        "naturalWidth": 272,
+        "naturalHeight": 397,
+        "group": "heavy",
+        "drawW": 58,
+        "drawH": 104,
+        "kind": "bus",
+        "mass": 1.72
+      },
+      "traffic_truck_orange": {
+        "src": "assets/sprites/traffic_truck_orange.png",
+        "naturalWidth": 251,
+        "naturalHeight": 490,
+        "group": "heavy",
+        "drawW": 67,
+        "drawH": 125,
+        "kind": "truck",
+        "mass": 2.55
+      },
+      "traffic_truck_blue": {
+        "src": "assets/sprites/traffic_truck_blue.png",
+        "naturalWidth": 247,
+        "naturalHeight": 361,
+        "group": "heavy",
+        "drawW": 65,
+        "drawH": 119,
+        "kind": "truck",
+        "mass": 2.45
+      },
+      "obstacle_cone": {
+        "src": "assets/sprites/obstacle_cone.png",
+        "naturalWidth": 222,
+        "naturalHeight": 253,
+        "group": "obstacles",
+        "drawW": 38,
+        "drawH": 45,
+        "type": "cones"
+      },
+      "obstacle_barrier_lights": {
+        "src": "assets/sprites/obstacle_barrier_lights.png",
+        "naturalWidth": 348,
+        "naturalHeight": 233,
+        "group": "obstacles",
+        "drawW": 105,
+        "drawH": 54,
+        "type": "barrier"
+      },
+      "obstacle_tires": {
+        "src": "assets/sprites/obstacle_tires.png",
+        "naturalWidth": 320,
+        "naturalHeight": 273,
+        "group": "obstacles",
+        "drawW": 70,
+        "drawH": 58,
+        "type": "debris"
+      },
+      "obstacle_oil": {
+        "src": "assets/sprites/obstacle_oil.png",
+        "naturalWidth": 370,
+        "naturalHeight": 213,
+        "group": "obstacles",
+        "drawW": 88,
+        "drawH": 42,
+        "type": "oil"
+      },
+      "obstacle_pothole": {
+        "src": "assets/sprites/obstacle_pothole.png",
+        "naturalWidth": 377,
+        "naturalHeight": 233,
+        "group": "obstacles",
+        "drawW": 83,
+        "drawH": 46,
+        "type": "pothole"
+      },
+      "obstacle_barrier": {
+        "src": "assets/sprites/obstacle_barrier.png",
+        "naturalWidth": 359,
+        "naturalHeight": 269,
+        "group": "obstacles",
+        "drawW": 105,
+        "drawH": 58,
+        "type": "barrier"
+      },
+      "obstacle_crate": {
+        "src": "assets/sprites/obstacle_crate.png",
+        "naturalWidth": 344,
+        "naturalHeight": 244,
+        "group": "obstacles",
+        "drawW": 66,
+        "drawH": 55,
+        "type": "debris"
+      },
+      "obstacle_roadwork": {
+        "src": "assets/sprites/obstacle_roadwork.png",
+        "naturalWidth": 274,
+        "naturalHeight": 269,
+        "group": "obstacles",
+        "drawW": 60,
+        "drawH": 64,
+        "type": "debris"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "3.7.1",
+  "syntax_game_js": "ok",
+  "syntax_questions_js": "ok",
+  "function_definitions": {
+    "drawCloseCitySides": 1,
+    "stageLightConfig": 1,
+    "drawEntityShadow": 1,
+    "drawRoad": 1,
+    "drawEnvironment": 1,
+    "drawGame": 1
+  },
+  "function_calls": {
+    "drawCloseCitySides": 1,
+    "stageLightConfig": 1,
+    "drawEntityShadow": 4
+  },
+  "root_cause_corrected": true,
+  "note": "La prueba interactiva automática en Chromium fue bloqueada por la política del entorno (ERR_BLOCKED_BY_ADMINISTRATOR); se realizó validación sintáctica y estructural."
+}

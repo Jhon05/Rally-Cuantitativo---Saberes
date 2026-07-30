@@ -1,0 +1,24 @@
+VALIDACIÓN — Rally Cuantitativo v1.9
+================================================
+[OK] Banco contiene 50 preguntas — 50
+[OK] Interpretación: pool disponible — 16
+[OK] Interpretación: niveles 1-4 disponibles — [1, 2, 3, 4]
+[OK] Argumentación: pool disponible — 12
+[OK] Argumentación: niveles 1-4 disponibles — [1, 2, 3, 4]
+[OK] Formulación y ejecución: pool disponible — 22
+[OK] Formulación y ejecución: niveles 1-4 disponibles — [1, 2, 3, 4]
+[OK] Todas las pistas tienen HTML/TeX
+[OK] Todas las retroalimentaciones disponibles
+[OK] MathJax local presente
+[OK] Selector de tres carreras presente
+[OK] Conteo fijo de cuatro preguntas
+[OK] Pregunta final seguida de sprint
+[OK] Imagen de pregunta integrada
+[OK] MathJax se ejecuta en pista y retroalimentación
+[OK] Todos los gráficos existen
+[OK] Manifest incluye todos los recursos — 83
+
+La validación de sintaxis JavaScript se ejecuta además con Node.js durante la construcción.
+[OK] Prueba visual del menú a 1365×768 y 1272×588: selector de carreras y botón Iniciar visibles.
+[OK] Prueba aislada de MathJax local: TeX convertido correctamente a SVG.
+[NOTA] La navegación automática por el juego completo está restringida por el entorno; se realizaron comprobaciones estructurales, de sintaxis, recursos y visualización del menú.

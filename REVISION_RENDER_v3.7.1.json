@@ -1,0 +1,10 @@
+{
+  "version": "3.7.1",
+  "root_cause": "Funciones de renderizado auxiliares ausentes en game.js",
+  "added_functions": [
+    "drawCloseCitySides",
+    "stageLightConfig",
+    "drawEntityShadow"
+  ],
+  "expected_result": "Carretera, vehículos, obstáculos y laterales vuelven a dibujarse sobre el entorno por capas."
+}

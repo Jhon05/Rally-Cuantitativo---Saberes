@@ -1,0 +1,8 @@
+VALIDACIÓN — Rally Cuantitativo v2.0
+=====================================
+- Banco del juego actualizado al archivo `banco_rally_texto_mathjax.json`.
+- `questions.js` regenerado con 50 preguntas, 3 carreras y 4 niveles por carrera.
+- Enunciados y opciones renderizados como HTML + TeX con MathJax SVG local.
+- Se eliminaron las capturas de enunciados; solo permanecen visuales necesarios.
+- Copiadas las gráficas del nuevo banco en `assets/visuals/`.
+- `game.js` ajustado para mostrar stem HTML, opciones HTML y reportes con visuales.

@@ -1,0 +1,13 @@
+Rally Cuantitativo v3.8.1 — corrección visual estable
+
+Base recuperada: v3.7.1, descartando los cambios experimentales de v3.8 que empeoraron la escena.
+
+Correcciones:
+- Camión de carga con recorte, escala y anclaje al suelo corregidos.
+- Se eliminó el vehículo pesado procedural que parecía vertical o flotante.
+- Terreno lateral sobrio, sin franjas diagonales artificiales.
+- Vegetación menos repetitiva y mejor escalonada.
+- Mensajes de impacto más pequeños y breves para no bloquear la pista.
+- Se conserva la lógica académica, peajes, SCORM, preguntas y reportes.
+
+Validación sintáctica: game.js y questions.js.

@@ -1,0 +1,6 @@
+Rally Cuantitativo v3.8.8
+- Peajes visibles con perspectiva dependiente de distancia.
+- Carretera original y tráfico lateral conservados.
+- Carril verde despejado únicamente durante la aproximación final.
+- Fuerza de carril desactivada cerca del peaje.
+- Rutas cortas compatibles con Windows y SCORM.

@@ -1,0 +1,15 @@
+VALIDACIÓN TÉCNICA — Rally Cuantitativo v3.5
+================================================
+Base funcional: v3.4 menú simple e inicio estable.
+
+Ajustes principales:
+- Nuevo sistema de entornos dinámicos por etapa.
+- Orden de etapas visuales: Amanecer urbano, Lluvia urbana, Atardecer industrial, Noche extrema y Sprint final con tormenta.
+- Cielo, skyline, montañas, industria, hombros de vía, asfalto, textura, luminarias y efectos climáticos diferenciados por etapa.
+- Carretera con textura, reflejos húmedos, detalles laterales y mejor profundidad.
+- Se conservan sprites de vehículos, banco de preguntas, peajes, tiempos, SCORM e informe.
+
+Comprobaciones:
+- game.js validado sintácticamente con node --check.
+- questions.js validado sintácticamente con node --check.
+- El proyecto mantiene inicio estable y sin cambios en el flujo académico.

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" name="viewport"/>
+<meta content="#04111f" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="Rally Cuantitativo con banco parametrizado coherente por carrera, tres peajes cuantitativos, figuras HTML/SVG y MathJax SVG visible de alta calidad, con sonidos, física y SCORM 1.2." name="description"/>
+<title>Rally Cuantitativo v3.9.8 — peajes por carril verde</title>
+<link href="styles.css" rel="stylesheet"/>
+<link rel="preload" as="audio" href="assets/audio/menu.mp3">
+<link rel="preload" as="audio" href="assets/audio/drive.mp3">
+<link rel="preload" as="audio" href="assets/audio/question.mp3">
+<link rel="preload" as="audio" href="assets/audio/toll.mp3">
+
+<link rel="preload" as="image" href="assets/peajes/peaje_estructura_etapa_1.png">
+<link rel="preload" as="image" href="assets/peajes/peaje_estructura_etapa_2.png">
+<link rel="preload" as="image" href="assets/peajes/peaje_estructura_etapa_3.png">
+<link rel="preload" as="image" href="assets/peajes/peaje_estructura_etapa_4.png">
+<script>
+    window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']],processEscapes:true},svg:{fontCache:'local',scale:1.28},options:{enableMenu:false,skipHtmlTags:['script','noscript','style','textarea','pre','code']},startup:{typeset:false}};
+  </script>
+<script defer="" src="mathjax-tex-svg.js"></script>
+<script defer="" src="scorm.js"></script>
+<script defer="" src="questions.js"></script>
+<script defer="" src="assets/sprites/sprites.js"></script>
+<script defer="" src="game.js"></script>
+</head>
+<body>
+<div id="app">
+<section aria-labelledby="fullscreenGateTitle" aria-modal="true" class="fullscreen-gate" id="fullscreenGate" role="dialog">
+<div class="fullscreen-gate-card">
+<div class="fullscreen-gate-icon">⛶</div>
+<p class="eyebrow">EXPERIENCIA OBLIGATORIA</p>
+<h2 id="fullscreenGateTitle">Rally en pantalla completa</h2>
+<p id="fullscreenGateText">Para adaptar correctamente la interfaz, los controles y la pista a tu dispositivo, el Rally debe ejecutarse en pantalla completa.</p>
+<button class="primary-btn" id="fullscreenGateBtn" type="button"><span>ENTRAR A PANTALLA COMPLETA</span><b>▶</b></button>
+<small>El navegador exige una pulsación para activar este modo.</small>
+</div>
+</section>
+<section aria-labelledby="gameTitle" class="boot-screen simple-boot" id="bootScreen">
+<canvas aria-hidden="true" id="bootCanvas"></canvas>
+<div aria-hidden="true" class="boot-grid"></div>
+<div class="simple-boot-wrap">
+  <header class="simple-brand">
+    <div class="brand-mark"><span>Σ</span><i></i></div>
+    <div><p class="eyebrow">RAZONAMIENTO CUANTITATIVO</p><h1 id="gameTitle">RALLY <span>CUANTITATIVO</span></h1><p class="subtitle">3 ETAPAS · BANCO PARAMETRIZADO POR CARRERA · v3.9.9</p></div>
+  </header>
+  <main class="simple-setup-card">
+    <div aria-live="polite" class="device-profile compact-device" id="deviceProfile">
+      <div aria-hidden="true" class="device-icon">▣</div>
+      <div><small>DISPOSITIVO DETECTADO</small><strong id="deviceName">Analizando…</strong><span id="deviceControls">Configurando controles</span></div>
+    </div>
+    <div class="identity-grid">
+      <label for="studentName">NOMBRE COMPLETO<input autocomplete="name" id="studentName" maxlength="80" placeholder="Escribe tu nombre completo" required type="text"></label>
+      <label for="studentEmail">CORREO ELECTRÓNICO<input autocomplete="email" id="studentEmail" maxlength="120" placeholder="nombre@correo.com" required type="email"></label>
+    </div>
+    <section class="saved-selection-panel" aria-label="Configuración de la carrera">
+      <button class="saved-choice" data-picker="mode" type="button"><span><small>MODALIDAD</small><strong id="summaryMode">Entrenamiento</strong></span><b>CAMBIAR ›</b></button>
+      <button class="saved-choice" data-picker="career" type="button"><span><small>CARRERA</small><strong id="summaryCareer">Carrera de Interpretación</strong></span><b>CAMBIAR ›</b></button>
+      <button class="saved-choice" data-picker="controls" type="button"><span><small>CONTROLES</small><strong id="summaryControls">Automático según dispositivo</strong></span><b>CAMBIAR ›</b></button>
+      <button class="saved-choice vehicle-summary" data-picker="car" type="button"><img id="summaryCarImage" src="assets/sprites/variants/player_vector_blue.png" alt="Vector GT azul"><span><small>AUTOMÓVIL</small><strong id="summaryCar">Vector GT</strong></span><b>CAMBIAR ›</b></button>
+      <button class="saved-choice" data-picker="color" type="button"><i class="summary-color" id="summaryColorDot"></i><span><small>COLOR DE CARROCERÍA</small><strong id="selectedColorName">Azul eléctrico</strong></span><b>CAMBIAR ›</b></button>
+    </section>
+    <input id="questionCount" type="hidden" value="3">
+    <input id="trafficLevel" type="hidden" value="extreme">
+    <select id="controlMode" hidden><option selected value="auto">Automático según dispositivo</option><option value="keyboard">Teclado</option><option value="touch">Táctil</option></select>
+    <div id="careerChoices" hidden>
+      <input checked name="career" type="radio" value="Interpretación"><input name="career" type="radio" value="Argumentación"><input name="career" type="radio" value="Formulación y ejecución">
+    </div>
+    <div hidden><input checked name="mode" type="radio" value="practice"><input name="mode" type="radio" value="exam"></div>
+    <div class="launch-row simple-launch-row">
+      <button class="primary-btn" id="launchBtn" type="button"><span>INICIAR RALLY</span><b>▶</b></button>
+      <button class="ghost-btn" id="howBtn" type="button">CÓMO JUGAR</button><a class="ghost-btn bank-link" href="Banco_Parametrizado_Rally_MathJax.html" target="_blank" rel="noopener">VER BANCO HTML</a>
+    </div>
+    <p aria-live="polite" class="boot-message" id="bootMessage"></p>
+  </main>
+</div>
+<div class="selection-modal" hidden id="selectionModal" role="dialog" aria-modal="true" aria-labelledby="selectionModalTitle">
+  <div class="selection-modal-card">
+    <header><div><small>CONFIGURACIÓN</small><h2 id="selectionModalTitle">Selecciona una opción</h2></div><button id="selectionModalClose" type="button" aria-label="Cerrar">×</button></header>
+    <div class="selection-options" id="selectionOptions"></div>
+    <footer><span>La selección se guarda al elegir una opción.</span><button id="selectionModalCancel" type="button">CANCELAR</button></footer>
+  </div>
+</div>
+<div class="boot-car" id="bootCar" hidden role="img" aria-label="Vista previa del automóvil seleccionado"></div>
+</section>
+<section class="game-screen" hidden="" id="gameScreen">
+<canvas aria-label="Autopista del Rally Cuantitativo" id="gameCanvas" tabindex="0"></canvas>
+<div aria-hidden="true" class="vignette"></div>
+<div class="orientation-hint" hidden="" id="orientationHint"><b>GIRA EL DISPOSITIVO</b><span>La vista horizontal ofrece una conducción más amplia, aunque puedes continuar en vertical.</span></div>
+<header class="hud">
+<div class="hud-brand"><span>Σ</span><div><strong>RALLY CUANTITATIVO</strong><small>RUTA DE DECISIONES</small></div></div>
+<div class="hud-stat"><small>CONTROL</small><strong id="controlText">0 / 3</strong></div>
+<div class="hud-stat wide"><small id="phaseLabel">CONDUCCIÓN</small><strong id="missionText">CARRERA DE INTERPRETACIÓN · ALCANZA EL PRIMER PEAJE</strong><div class="progress-track"><i id="missionFill"></i></div></div>
+<div class="hud-stat"><small>RESISTENCIA</small><strong id="healthText">5 / 5</strong><div class="health-bars" id="healthBars"></div></div>
+<div class="hud-stat score"><small>NOTA</small><strong id="scoreText">0,00</strong><span id="streakText">RACHA 0</span></div>
+<div class="hud-stat integrity"><small>INTEGRIDAD</small><strong id="integrityText">0 / 5</strong></div>
+<nav class="hud-actions">
+<button id="pauseBtn" title="Pausar" type="button"><span>Ⅱ</span><b>PAUSA</b></button>
+<button id="progressBtn" title="Progreso" type="button"><span>◫</span><b>PROGRESO</b></button>
+<button id="reportBtn" title="Informe" type="button"><span>≣</span><b>INFORME</b></button>
+<button id="soundBtn" title="Sonido" type="button"><span>◖)))</span><b>SONIDO</b></button>
+<button id="finishBtn" title="Finalizar" type="button"><span>■</span><b>FINALIZAR</b></button>
+</nav>
+</header>
+<section aria-label="Etapa actual de la carrera" class="race-stage-hud" id="raceStageHud">
+<div class="stage-summary">
+<small>ETAPA DE LA CARRERA</small>
+<strong id="stageTitle">INTERPRETACIÓN · PEAJE 1 · LECTURA E IDENTIFICACIÓN</strong>
+<span id="stageCounter">PREGUNTA 1 / 3</span>
+</div>
+<div aria-hidden="true" class="stage-track" id="stageTrack">
+<i class="active"><b>1</b><span>LECTURA</span></i>
+<i><b>2</b><span>ANÁLISIS</span></i>
+<i><b>3</b><span>PEAJE FINAL</span></i>
+<i><b>4</b><span>META</span></i>
+</div>
+<p id="stageDetail">Completa el tramo y alcanza el primer peaje cuantitativo.</p>
+</section>
+<div class="event-banner" id="eventBanner"><small>PRÓXIMO EVENTO</small><strong id="eventName">PEAJE 1 · LECTURA INICIAL</strong><span id="eventDistance">1.200 m</span></div>
+<div class="compass" id="compass"><div class="dial"><i></i><b>⚑</b></div><div><small>CONTROL DETECTADO</small><strong id="compassName">PEAJE CUANTITATIVO 1</strong><span id="compassDistance">ADELANTE</span></div></div>
+<div class="device-badge" id="deviceBadge"><small>CONTROL</small><strong id="deviceBadgeText">TECLADO</strong></div>
+<div class="pilot-points-badge" id="pilotPointsBadge"><small>PUNTOS DE PILOTO</small><strong id="pilotPointsText">0</strong><span id="speedStateText">CRUCERO</span></div>
+<div class="nitro-banner" hidden="" id="nitroBanner">⚡ TURBO CUANTITATIVO</div>
+<div class="hazard-banner" hidden="" id="hazardBanner">⚠ OBSTÁCULO ADELANTE</div>
+<div class="impact-banner" hidden="" id="impactBanner"><strong id="impactTitle">IMPACTO</strong><span id="impactDetail">Velocidad reducida</span></div>
+<div aria-live="polite" class="toast" id="toast"></div>
+<section aria-live="assertive" class="event-reason-overlay" hidden="" id="eventReasonOverlay">
+<div class="event-reason-card">
+<div class="event-reason-head">
+<div><p class="eyebrow">CONTROL CUANTITATIVO DETECTADO</p><h2 id="eventReasonTitle">CONTROL CUANTITATIVO</h2></div>
+<span id="eventStageBadge">PEAJE 1 / 3</span>
+</div>
+<div class="event-logic-grid">
+<article class="logic-why"><small>¿POR QUÉ APARECE LA PREGUNTA?</small><p id="eventReasonText">La ruta requiere una decisión cuantitativa.</p></article>
+<article class="logic-good"><small>SI RESPONDES CORRECTAMENTE</small><p id="eventCorrectPreview">Obtendrás una ventaja concreta en la carrera.</p></article>
+<article class="logic-bad"><small>SI RESPONDES INCORRECTAMENTE</small><p id="eventWrongPreview">La carrera continuará con una consecuencia visible.</p></article>
+</div>
+<div class="reason-line"><span>LA CARRETERA ESTÁ CONGELADA PARA QUE PUEDAS LEER</span><button id="eventStartBtn" type="button">ABRIR PREGUNTA ▶</button><b hidden="" id="eventCountdown">LISTO</b></div>
+</div>
+</section>
+<div aria-label="Controles táctiles" class="mobile-controls" id="touchControls">
+<div class="steer-pad">
+<button aria-label="Mover a la izquierda" data-dir="left" type="button">◀</button>
+<button aria-label="Mover a la derecha" data-dir="right" type="button">▶</button>
+</div>
+<div class="speed-pad">
+<button aria-label="Frenar" data-dir="down" type="button">▼<small>FRENO</small></button>
+<button aria-label="Acelerar" data-dir="up" type="button">▲<small>ACELERAR</small></button>
+</div>
+<button aria-label="Activar turbo" class="touch-turbo" data-action="turbo" id="touchTurboBtn" type="button"><span>⚡</span><b>TURBO</b><i id="touchTurboFill"></i></button>
+</div>
+<aside class="side-panel" hidden="" id="progressPanel">
+<button class="panel-close" data-close="progressPanel" type="button">×</button>
+<h2>Progreso de la misión</h2>
+<div id="progressSummary"></div>
+<div class="question-ladder" id="questionLadder"></div>
+</aside>
+</section>
+<section aria-labelledby="questionTitle" aria-modal="true" class="question-overlay" hidden="" id="questionOverlay" role="dialog">
+<div class="question-shell">
+<header class="question-header">
+<div><span id="eventTag">PIT CUANTITATIVO</span><h2 id="questionTitle">Pregunta del peaje 1 de 3</h2><p class="question-reason" id="questionReason"></p><p class="saber-time-notice" id="questionTimeNotice">En el examen Saber Pro se debe emplear, en promedio, un máximo de 1 minuto y 30 segundos por cada pregunta de matemáticas.</p></div>
+<div class="question-meta"><span id="competencyTag">INTERPRETACIÓN</span><span id="sourceTag">SABER PRO</span><span id="difficultyTag">BÁSICA</span><span id="questionValue">VALOR 1,00</span><span class="question-timer" id="questionTimer" aria-live="polite">01:30</span></div>
+</header>
+<div class="question-body bank-question-body">
+<section class="context-pane bank-context-pane" aria-label="Contexto e información de la pregunta">
+<div class="bank-section-heading"><span class="bank-step">1</span><div><small>CONTEXTO E INFORMACIÓN</small><strong id="contextTitle"></strong></div></div>
+<article class="unified-context-card">
+<div class="context-card-heading"><span>DATOS, TABLAS Y GRÁFICAS</span><strong>Lee antes de responder</strong></div>
+<div class="context-card-scroll">
+<div class="context-copy" id="contextText"></div>
+<div class="context-visual" id="contextVisual"></div>
+</div>
+</article>
+</section>
+<section class="response-pane" aria-label="Pregunta y opciones de respuesta">
+<section class="answer-pane bank-answer-pane">
+<div class="question-scroll bank-question-scroll">
+<section class="question-prompt-panel bank-prompt-panel" aria-label="Instrucción y pregunta">
+<div class="bank-section-heading"><span class="bank-step">2</span><div><small>PREGUNTA</small><strong id="questionPromptGuide">Lee el contexto y responde exactamente lo solicitado.</strong></div></div>
+<div class="question-stem" id="questionStem"></div>
+</section>
+<div class="bank-section-heading options-heading"><span class="bank-step">3</span><div><small>OPCIONES DE RESPUESTA</small><strong>Selecciona una opción y valida tu respuesta</strong></div></div>
+<div class="options" id="options"></div>
+<div class="question-actions">
+<button class="hint-btn" id="hintBtn" type="button">💡 VER PISTA MATEMÁTICA <small>máximo 0,80</small></button>
+<button class="validate-btn" id="validateBtn" type="button">VALIDAR RESPUESTA</button>
+</div>
+<div class="hint-box" hidden="" id="hintBox"></div>
+<div class="feedback-box" hidden="" id="feedbackBox"></div>
+<div class="outcome-panel" hidden="" id="outcomePanel">
+<small>LO QUE SUCEDE AHORA EN LA CARRERA</small>
+<strong id="outcomeTitle">VENTAJA ACTIVADA</strong>
+<p id="outcomeText"></p>
+</div>
+</div>
+<button class="continue-btn" hidden="" id="continueBtn" type="button">HE LEÍDO LA RETROALIMENTACIÓN · CONTINUAR RALLY ▶</button>
+</section>
+</section>
+</div>
+</div>
+</section>
+<section class="simple-overlay" hidden="" id="pauseOverlay">
+<div class="simple-card"><p class="eyebrow">RALLY EN PAUSA</p><h2>La carretera está congelada</h2><p>Continúa cuando estés listo. La misión conservará exactamente su progreso.</p><button class="primary-btn" id="resumeBtn" type="button">CONTINUAR</button></div>
+</section>
+<section class="simple-overlay" hidden="" id="helpOverlay">
+<div class="simple-card help-card"><button class="x-close" data-close="helpOverlay" type="button">×</button><p class="eyebrow">MANUAL DEL PILOTO</p><h2>Cómo jugar</h2>
+<div class="help-grid"><div><b>PC / PORTÁTIL</b><p>Flechas o WASD para dirigir gradualmente. Arriba acelera, abajo frena y Espacio activa el turbo.</p></div><div><b>CELULAR / TABLETA / iPAD</b><p>Usa los botones táctiles de dirección, aceleración, freno y turbo.</p></div><div><b>TRÁFICO VIVO</b><p>Autos, buses, camiones y motos conservan distancia, frenan y cambian de carril solo cuando hay espacio. Las direccionales anticipan maniobras.</p></div><div><b>RESPONDE</b><p>Primero recibirás un aviso y la razón del control; luego la carrera se congela para responder.</p></div></div>
+<p class="note">El tipo de carrera seleccionado filtra exclusivamente las preguntas de esa competencia. El juego elige una variante aleatoria de nivel inicial, intermedio y avanzado, procurando usar tres familias diferentes. Cada pregunta se libera al alcanzar físicamente el peaje. La pista matemática solo estará disponible si se ingresa por la cabina verde; una entrada incorrecta no repite la etapa.</p></div>
+</section>
+<section class="integrity-overlay" hidden="" id="integrityOverlay">
+<div class="integrity-card"><div class="warning-icon">!</div><p class="eyebrow">ALERTA DE INTEGRIDAD</p><h2 id="integrityTitle">Incidencia detectada</h2><p id="integrityDetail"></p><strong id="integrityCounter">INCIDENCIA 1 DE 5</strong><label>CONTRASEÑA DOCENTE<input id="teacherPassword" inputmode="numeric" maxlength="4" placeholder="HHMM" type="password"/></label><button id="unlockBtn" type="button">REANUDAR EN PANTALLA COMPLETA</button><p aria-live="polite" id="unlockMessage"></p></div>
+</section>
+<section aria-live="assertive" class="finish-flash" hidden="" id="finishFlash"><div><small>META ALCANZADA</small><strong>FINISH</strong><span>🏁</span></div></section>
+<section class="finish-overlay" hidden="" id="finishOverlay">
+<div class="finish-card">
+<div class="finish-badge" id="finishBadge">🏁</div>
+<p class="eyebrow">MISIÓN COMPLETADA</p>
+<h2 id="finishTitle">Rally finalizado</h2>
+<div class="finish-score"><span>NOTA FINAL</span><strong id="finalScore">0,00</strong><small>/ 5,00</small></div>
+<div class="finish-metrics" id="finishMetrics"></div>
+<p id="finishMessage"></p>
+<div class="finish-actions"><button class="primary-btn" id="downloadReportBtn" type="button">DESCARGAR INFORME HTML</button><button class="ghost-btn" id="restartBtn" type="button">NUEVA MISIÓN</button></div>
+</div>
+</section>
+<div class="simple-overlay" hidden="" id="confirmOverlay"><div class="simple-card"><h2>¿Finalizar la misión?</h2><p>Se guardará la nota obtenida hasta este momento y se generará el informe.</p><div class="confirm-actions"><button class="danger-btn" id="confirmFinishBtn" type="button">SÍ, FINALIZAR</button><button class="ghost-btn" id="cancelFinishBtn" type="button">VOLVER A LA CARRERA</button></div></div></div>
+</div>
+</body>
+</html>

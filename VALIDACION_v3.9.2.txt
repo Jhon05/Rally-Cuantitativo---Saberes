@@ -1,0 +1,5 @@
+v3.9.2
+- La fotografía del peaje se recorta en la zona superior (estructura y cabinas).
+- La parte inferior se funde con la carretera del juego para evitar doble perspectiva.
+- Se dibuja un conector verde entre la carretera y el carril verde fotografiado.
+- Ajuste de geometría y centros de carril en la aproximación al peaje.

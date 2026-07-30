@@ -1,0 +1,28 @@
+VALIDACIÓN TÉCNICA — Rally Cuantitativo v2.1
+=====================================================
+
+[OK] DOM references: 115 refs; missing=[]
+[OK] Question count: 50
+[OK] Careers: ['Argumentación', 'Formulación y ejecución', 'Interpretación']
+[OK] 4 levels each career: ranks 1-4 available
+[OK] Math fields: all 50
+[OK] Question timer UI: timer IDs present
+[OK] Timing logic: tokens present
+[OK] Visual assets: missing=[]
+[OK] Manifest XML: parsed
+[OK] Manifest resources: 31 files; missing=[]
+[OK] No screenshot questions: assets/questions removed
+[OK] SCORM root files: required files present
+
+Funciones verificadas:
+- Peaje bloqueado durante los primeros 60 segundos efectivos de cada etapa.
+- Aparición del peaje a 900 m después de completar el minuto.
+- Ingreso obligatorio por la cabina verde.
+- Penalización de 250 puntos de piloto y repetición de etapa por cabina incorrecta.
+- Temporizador regresivo de 90 segundos por pregunta.
+- Tiempo agotado: 0 puntos, retroalimentación visible y continuación a la siguiente etapa.
+- Registro de responseSeconds, timedOut, promedio temporal y peajes fallidos en el informe.
+- MathJax local para enunciados, opciones, pistas y retroalimentaciones.
+
+Limitación:
+- No se realizó una prueba visual automatizada completa del bucle Canvas; se recomienda abrir index.html y efectuar una prueba manual de una carrera.

@@ -1,0 +1,12 @@
+{
+  "version": "3.8.1",
+  "base": "3.7.1",
+  "rollback_from": "3.8 experimental",
+  "fixes": [
+    "camión anclado y recortado",
+    "terreno lateral sobrio",
+    "vegetación menos repetitiva",
+    "impacto compacto"
+  ],
+  "status": "validated"
+}

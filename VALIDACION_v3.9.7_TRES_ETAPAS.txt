@@ -1,0 +1,9 @@
+Rally Cuantitativo v3.9.7
+
+- Tres etapas evaluativas: lectura, análisis y decisión.
+- Tres peajes y tres preguntas; después de la tercera se habilita el sprint final.
+- Selección progresiva por dificultad 1, 2 y 3.
+- Nota calculada sobre las tres respuestas.
+- Preguntas reorganizadas en tres bloques visibles: contexto, pregunta y opciones.
+- Presentación alineada con el banco HTML y MathJax SVG.
+- Progreso, HUD, meta, informe y SCORM ajustados a 3/3.

@@ -1,0 +1,22 @@
+VALIDACIÓN — Rally Cuantitativo v2.9
+=====================================
+Banco revisado: 50 preguntas.
+
+Criterios:
+- La franja superior muestra únicamente la tarea concreta.
+- Los datos específicos del enunciado se muestran una sola vez en el panel inferior.
+- Todas las preguntas tienen un recurso HTML de datos, tabla, gráfica, diagrama o tarjeta informativa.
+- Las tablas se construyen con <table> HTML y MathJax.
+- Las gráficas y diagramas se construyen con HTML/CSS/SVG.
+- No se usan etiquetas <img> ni capturas rasterizadas dentro del banco.
+- Cada pregunta conserva cuatro opciones.
+
+Resultados:
+- Preguntas con tarea superior: 50/50.
+- Preguntas con recurso HTML/SVG: 50/50.
+- Preguntas con tabla HTML: 27.
+- Preguntas con gráfica o diagrama SVG: 9.
+- Referencias a imágenes: 0.
+- Duplicaciones textuales exactas entre tarea y panel de datos: 0.
+- Preguntas con cuatro opciones: 50/50.
+- Incidencias estructurales: 0.

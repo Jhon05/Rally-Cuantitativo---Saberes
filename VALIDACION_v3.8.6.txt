@@ -1,0 +1,9 @@
+RALLY CUANTITATIVO v3.8.6
+
+- 4 peajes recortados y precargados.
+- Respaldo vectorial si una imagen no carga.
+- Carretera Canvas conservada.
+- Tráfico y obstáculos conservados durante la aproximación.
+- Cabina verde despejada únicamente en los últimos 145 m.
+- Indicadores visuales sincronizados con tollGateLane.
+- SCORM 1.2 y GitHub conservados.

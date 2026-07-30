@@ -1,0 +1,13 @@
+{
+  "version": "3.7",
+  "applied_changes": [
+    "laterales realistas",
+    "edificios con parallax",
+    "sombras de contacto y proyección"
+  ],
+  "notes": [
+    "Se redujo el aspecto de plataformas blancas en los laterales.",
+    "El skyline ahora usa múltiples profundidades y edificios laterales cercanos.",
+    "Se mejoró el apoyo visual de obstáculos y vehículos mediante sombras proyectadas."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": "3.3",
+  "models": [
+    "Vector GT",
+    "Pulse RS",
+    "Titan X"
+  ],
+  "colors": [
+    "Azul eléctrico",
+    "Rojo pulso",
+    "Violeta neón",
+    "Verde turbo",
+    "Ámbar"
+  ],
+  "combinations": 15,
+  "technique": "base neutral + máscara alfa + colorización de píxeles en Canvas con caché",
+  "mask_files": {
+    "player_vector": {
+      "neutralSrc": "assets/sprites/player_vector_neutral.png",
+      "maskSrc": "assets/sprites/player_vector_paint_mask.png",
+      "maskCoverage": 0.5734
+    },
+    "player_pulse": {
+      "neutralSrc": "assets/sprites/player_pulse_neutral.png",
+      "maskSrc": "assets/sprites/player_pulse_paint_mask.png",
+      "maskCoverage": 0.3489
+    },
+    "player_titan": {
+      "neutralSrc": "assets/sprites/player_titan_neutral.png",
+      "maskSrc": "assets/sprites/player_titan_paint_mask.png",
+      "maskCoverage": 0.1904
+    }
+  },
+  "report_includes_color": true
+}

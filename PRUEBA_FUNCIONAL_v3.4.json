@@ -1,0 +1,89 @@
+{
+  "version": "3.4",
+  "menu_test": {
+    "modal_opened": true,
+    "career_saved": "Argumentación",
+    "car_saved": "Pulse RS",
+    "color_saved": "Verde turbo"
+  },
+  "launch_test": {
+    "boot_hidden_after_click": true,
+    "game_visible_after_click": true,
+    "console_errors": 0
+  },
+  "sprites": {
+    "variant_count": 15,
+    "checks": {
+      "player_vector": {
+        "blue": {
+          "rgb_sum": 22015431,
+          "different_from_blue": true
+        },
+        "red": {
+          "rgb_sum": 21174701,
+          "different_from_blue": true
+        },
+        "violet": {
+          "rgb_sum": 24540371,
+          "different_from_blue": true
+        },
+        "green": {
+          "rgb_sum": 19295178,
+          "different_from_blue": true
+        },
+        "amber": {
+          "rgb_sum": 22813825,
+          "different_from_blue": true
+        }
+      },
+      "player_pulse": {
+        "blue": {
+          "rgb_sum": 20570867,
+          "different_from_blue": true
+        },
+        "red": {
+          "rgb_sum": 20157799,
+          "different_from_blue": true
+        },
+        "violet": {
+          "rgb_sum": 21814192,
+          "different_from_blue": true
+        },
+        "green": {
+          "rgb_sum": 19218074,
+          "different_from_blue": true
+        },
+        "amber": {
+          "rgb_sum": 20964388,
+          "different_from_blue": true
+        }
+      },
+      "player_titan": {
+        "blue": {
+          "rgb_sum": 15945330,
+          "different_from_blue": true
+        },
+        "red": {
+          "rgb_sum": 15745390,
+          "different_from_blue": true
+        },
+        "violet": {
+          "rgb_sum": 16547372,
+          "different_from_blue": true
+        },
+        "green": {
+          "rgb_sum": 15290240,
+          "different_from_blue": true
+        },
+        "amber": {
+          "rgb_sum": 16135966,
+          "different_from_blue": true
+        }
+      }
+    }
+  },
+  "notes": [
+    "Color variants are precomputed PNG files; no runtime mask processing.",
+    "Launch continues when fullscreen request is rejected."
+  ]
+}

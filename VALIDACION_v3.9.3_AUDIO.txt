@@ -1,0 +1,8 @@
+Rally Cuantitativo v3.9.3
+Audio original integrado:
+- 5 pistas musicales por escena.
+- Motor en bucle con velocidad y tono reactivos.
+- 6 efectos breves.
+- Cambios automáticos entre menú, conducción, pregunta, peaje y meta.
+- Archivos MP3 declarados en imsmanifest.xml.
+- Control SONIDO conserva su función global.

@@ -1,0 +1,6 @@
+Rally Cuantitativo v3.9.1
+- JS verificado sintácticamente.
+- Peajes p1-p4 presentes.
+- Mapeo visual de carriles fotográficos activo.
+- Tráfico bajo la capa fotográfica durante transición.
+- Rutas internas cortas para Windows y SCORM.

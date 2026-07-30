@@ -1,0 +1,9 @@
+Abra Banco_Parametrizado_Rally_MathJax.html para revisar las 63 variantes. El juego usa questions.js y selecciona tres preguntas aleatorias por partida.
+
+
+## Banco clasificado por tipo de carrera (v3.10.0)
+- Interpretación: 21 preguntas.
+- Argumentación: 21 preguntas.
+- Formulación y ejecución: 21 preguntas.
+- Cada partida usa tres preguntas de la carrera elegida: una por nivel y de familias diferentes cuando es posible.
+- Las opciones se vuelven a aleatorizar al iniciar la partida.

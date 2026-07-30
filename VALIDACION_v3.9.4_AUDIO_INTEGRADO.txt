@@ -1,0 +1,10 @@
+Rally Cuantitativo v3.9.4
+
+Validación de audio:
+- 12 archivos MP3 incluidos en assets/audio.
+- Música por escenas: menu, drive, question, toll, finish.
+- Motor reactivo por velocidad y turbo.
+- Crossfade y ducking implementados.
+- Sin atributo crossOrigin para compatibilidad local/SCORM.
+- Pausa y reanudación por visibilidad sin reiniciar el juego.
+- Botón SONIDO actualiza icono, etiqueta y título.

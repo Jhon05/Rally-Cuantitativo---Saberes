@@ -1,0 +1,68 @@
+{
+  "version": "3.5",
+  "environments": [
+    {
+      "stage": 1,
+      "theme": "AMANECER URBANO",
+      "features": [
+        "cielo cálido",
+        "sol de amanecer",
+        "skyline moderno",
+        "zonas verdes laterales",
+        "asfalto seco con profundidad"
+      ]
+    },
+    {
+      "stage": 2,
+      "theme": "LLUVIA URBANA",
+      "features": [
+        "nubes densas",
+        "pista mojada",
+        "reflejos",
+        "lluvia dinámica",
+        "hombros grises urbanos"
+      ]
+    },
+    {
+      "stage": 3,
+      "theme": "ATARDECER INDUSTRIAL",
+      "features": [
+        "horizonte naranja",
+        "chimeneas",
+        "grúas",
+        "laterales industriales",
+        "luz cálida"
+      ]
+    },
+    {
+      "stage": 4,
+      "theme": "NOCHE EXTREMA",
+      "features": [
+        "cielo nocturno",
+        "luna",
+        "luces de edificios",
+        "anuncios laterales",
+        "mayor contraste"
+      ]
+    },
+    {
+      "stage": 5,
+      "theme": "SPRINT FINAL · TORMENTA",
+      "features": [
+        "tormenta oscura",
+        "lluvia intensa",
+        "flash atmosférico",
+        "asfalto húmedo",
+        "acabado dramático"
+      ]
+    }
+  ],
+  "road_improvements": [
+    "textura del asfalto",
+    "bandas de brillo",
+    "pavimento húmedo en lluvia",
+    "hombros laterales diferenciados",
+    "profundidad de carriles"
+  ],
+  "status": "ok"
+}

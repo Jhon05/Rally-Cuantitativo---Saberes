@@ -1,0 +1,9 @@
+VALIDACIÓN — Rally Cuantitativo v3.1
+=====================================
+- Base: versión v3.0 de Rally Cuantitativo.
+- Banco verificado: 50 preguntas.
+- Formato mantenido: HTML + SVG + MathJax, sin capturas rasterizadas.
+- Revisión de consistencia: se comprobó que cada pregunta tenga una sola tarea superior, un único panel de datos y cuatro opciones.
+- Ayudas visuales reconstruidas: TYT_08 y TYT_09 ahora incluyen una infografía HTML/SVG con ciudad, camión, contenedor, lugar de descarga, población, capacidad, densidad y viajes diarios.
+- Repetición de texto: no se agregaron repeticiones entre la tarea superior y el panel de datos.
+- Escala matemática: se conserva la corrección de MathJax de v3.0.
